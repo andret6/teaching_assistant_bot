@@ -255,6 +255,14 @@ def chat(n_clicks, user_text, history):
     
     return rendered, history, ""
 
-if __name__ == "__main__":
-    app.run(debug=True, host="127.0.0.1", port=8050)
+# For a local run
+#if __name__ == "__main__":
+#    app.run(debug=True, host="127.0.0.1", port=8050)
 
+# To run on dash
+if __name__ == "__main__":
+    app.run(
+        debug=False,
+        host="0.0.0.0",
+        port=int(os.environ.get("PORT", 8050))
+    )
