@@ -1,1 +1,3 @@
 This is a light weight python dash app designed to provide assistance for the 4-week artificial intelligence program. It makes use prompt engineering to deliver responses in way which are tailored for course content, providing an assistant who help navigate class materials, as well as demonstrating the types of products you can create with skills learned in this course.
+
+Currently hosted on render: https://teaching-assistant-bot.onrender.com/
